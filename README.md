@@ -63,8 +63,8 @@ Caption Input → Embedding → LSTM → Add with image features → LSTM → So
 
 ### Developers
 - **Saleh Mangrio** – Full-stack ML Engineer  
-  GitHub: https://github.com/SalehMangrio  
-  Hugging Face: https://huggingface.co/Salehmangrio
+  - GitHub: https://github.com/SalehMangrio  
+  - Hugging Face: https://huggingface.co/Salehmangrio
 
 - **Kelash Kumar** – ML Engineer & UI Designer
 
