@@ -1,5 +1,6 @@
 # Image Captioning AI
 **Live Demo**: https://image-captioning-ai.netlify.app  
+<a href="./image-captionning-30k-images.ipynb">KAGGLE NOTEBOOK CODE</a>
 
 ---
 
