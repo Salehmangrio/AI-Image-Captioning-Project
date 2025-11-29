@@ -1,6 +1,6 @@
 # Image Captioning AI
-- <a href="https://image-captioning-ai.netlify.app">LIVE DEMO </a>
-- <a href="./image-captionning-30k-images.ipynb">KAGGLE NOTEBOOK CODE</a>
+- <a href="https://image-captioning-ai.netlify.app" target="_blank">LIVE DEMO </a>
+- <a href="./image-captionning-30k-images.ipynb" target="_blank">KAGGLE NOTEBOOK CODE</a>
 
 ---
 
