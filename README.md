@@ -11,6 +11,7 @@ Trained on the **Flickr30k dataset** using **ResNet50 + LSTM with merge architec
 
 ---
 
+
 ### Features
 - Real-time image captioning with **Beam Search** and **Greedy** decoding
 - Beautiful, responsive React + Tailwind CSS frontend
@@ -20,6 +21,7 @@ Trained on the **Flickr30k dataset** using **ResNet50 + LSTM with merge architec
 
 ---
 
+
 ### Live Links
 | Component              | URL                                                                 |
 |------------------------|----------------------------------------------------------------------|
@@ -28,6 +30,7 @@ Trained on the **Flickr30k dataset** using **ResNet50 + LSTM with merge architec
 | API Docs (Swagger)     | https://salehmangrio-image-captioning-api.hf.space/docs             |
 
 ---
+
 
 ### Tech Stack
 | Layer              | Technology                                 |
@@ -42,18 +45,20 @@ Trained on the **Flickr30k dataset** using **ResNet50 + LSTM with merge architec
 
 ---
 
+
 ### Model Architecture
-Image → ResNet50 → 2048-dim vector → Dense → RepeatVector <br/>
-Caption Input → Embedding → LSTM → Add with image features → LSTM → Softmax
+<img src="Untitled diagram-2025-12-02-140027.png" />
+
 
 - Max caption length: **85**
-- Vocabulary size: ~8500+
+- Vocabulary size: **18316**
 - Trained with teacher forcing and categorical crossentropy
-
+- Epochs : **30**
+- Test-Val split : **80 - 20 %**
 ---
 
 ### How to Use
-1. Visit: https://image-captioning-ai.netlify.app
+1. Visit: **https://image-captioning-ai.netlify.app**
 2. Upload any photo (JPG/PNG)
 3. Choose **Beam Search** (best quality) or **Greedy** (faster)
 4. Click **"Generate Caption"**
@@ -67,6 +72,7 @@ Caption Input → Embedding → LSTM → Add with image features → LSTM → So
   - Hugging Face: https://huggingface.co/Salehmangrio
 
 - **Kelash Kumar** – ML Engineer & UI Designer
+  - GitHub: https://github.com/kelashkumar-iba
 
 ---
 
