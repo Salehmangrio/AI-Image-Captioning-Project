@@ -55,6 +55,8 @@ Trained on the **Flickr30k dataset** using **ResNet50 + LSTM with merge architec
 - Trained with teacher forcing and categorical crossentropy
 - Epochs : **30**
 - Test-Val split : **80 - 20 %**
+#### Deatailed Diagram:
+  <a href="Detailed Model View Diagram.png" >View Detailed Image Here</a>
 ---
 
 ### How to Use
